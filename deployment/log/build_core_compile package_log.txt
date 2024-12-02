@@ -1,0 +1,16 @@
+Buildfile: E:\Desenvolvimento\Projetos\Mendix\Projetos\RencarApp-main\deployment\build_core.xml
+
+compile:
+    [javac] Compiling 518 source files to E:\Desenvolvimento\Projetos\Mendix\Projetos\RencarApp-main\deployment\run\bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+package:
+      [jar] Building jar: E:\Desenvolvimento\Projetos\Mendix\Projetos\RencarApp-main\deployment\model\bundles\project.jar
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+

@@ -1,0 +1,100 @@
+.form-control {
+    border: 2px solid $form-input-border-color;
+    border-radius: $form-input-border-radius;
+}
+
+.btn,
+.mx-button {
+    border: 1px solid $btn-default-border-color;
+    border-radius: $btn-border-radius;
+}
+
+.btn-rencar {
+    background-color: black;
+    color: yellow;
+}
+
+.region-topbar {
+    .mx-navbar {
+        background-color: $navtopbar-bg;
+        ul.nav {
+            > .mx-navbar-item {
+                margin-left: $spacing-small;
+            }
+            /* Navigation item */
+            & > li.mx-navbar-item > a {
+                color: $navtopbar-color;
+                font-size: $navtopbar-font-size;
+                line-height: 1.2;
+
+                &:hover {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+.region-sidebar {
+    .mx-navigationtree {
+        background-color: $navsidebar-bg;
+        .navbar-inner > ul {
+            & > li {
+                & > a {
+                    color: $navsidebar-color;
+                    border-color: $navsidebar-border-color;
+                    background-color: $navsidebar-bg;
+                    font-size: $navsidebar-font-size;
+                    font-weight: bold;
+                    .caret {
+                        border-top-color: $navsidebar-color;
+                        border-bottom-color: $navsidebar-color;
+                    }
+
+                    .glyphicon {
+                        font-size: $navsidebar-glyph-size;
+                    }
+                }
+                a:hover,
+                a:focus,
+                a.active {
+                    color: $navsidebar-color-hover;
+                    background-color: $navsidebar-bg-hover;
+                    .caret {
+                        border-top-color: $navsidebar-color-active;
+                        border-bottom-color: $navsidebar-color-active;
+                    }
+                }
+                a.active {
+                    color: $navsidebar-color-active;
+                    border-left-color: $navsidebar-color-active;
+                    background-color: $navsidebar-bg-active;
+                }
+            }
+        }
+
+        /* Sub navigation item specific */
+        li.mx-navigationtree-has-items {
+            & > ul {
+                background-color: $navsidebar-sub-bg;
+                li {
+                    a {
+                        color: $navsidebar-sub-color;
+                        background-color: $navsidebar-sub-bg;
+                        font-size: $navsidebar-sub-font-size;
+                        &:hover,
+                        &:focus,
+                        &.active {
+                            color: $navsidebar-sub-color-hover;
+                            background-color: $navsidebar-sub-bg-hover;
+                        }
+                        &.active {
+                            color: $navsidebar-sub-color-active;
+                            background-color: $navsidebar-sub-bg-active;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

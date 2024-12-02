@@ -1,0 +1,4 @@
+[rtlauncher:container$] INFO Evictions for component 'project-userlib':
+Evicted E:\Desenvolvimento\Projetos\Mendix\Projetos\RencarApp-main\deployment\model\lib\userlib\commons-lang3-3.11.jar by E:\Desenvolvimento\Projetos\Mendix\Projetos\RencarApp-main\deployment\model\lib\userlib\commons-lang3-3.12.0.jar.
+2024-12-01 20:54:43.480 INFO - M2EE: Added admin request handler '/prometheus' with servlet class 'com.mendix.metrics.prometheus.PrometheusServlet'
+[rtlauncher:container$] INFO Container start took 2599. Ready to accept admin requests.

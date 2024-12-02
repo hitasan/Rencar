@@ -1,0 +1,11 @@
+Buildfile: E:\Desenvolvimento\Projetos\Mendix\Projetos\RencarApp-main\deployment\build_core.xml
+
+deploy:
+     [copy] Copying 52 files to E:\Desenvolvimento\Projetos\Mendix\Projetos\RencarApp-main\deployment
+     [copy] Copying 172 files to E:\Desenvolvimento\Projetos\Mendix\Projetos\RencarApp-main\deployment\model\lib\userlib
+     [copy] Copying 8 files to E:\Desenvolvimento\Projetos\Mendix\Projetos\RencarApp-main\deployment\model\resources
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+

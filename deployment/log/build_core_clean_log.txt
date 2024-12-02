@@ -1,0 +1,8 @@
+Buildfile: E:\Desenvolvimento\Mendix\RencarApp-main\deployment\build_core.xml
+
+clean:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+

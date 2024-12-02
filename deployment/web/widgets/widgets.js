@@ -1,0 +1,1 @@
+define(["HTMLSnippet/widget/HTMLSnippet", "HTMLSnippet/widget/HTMLSnippetContext", "KeyboardShortcut/widget/KeyboardShortcut", "FileDocumentViewer/widget/FileDocumentViewer", "RadioButtonList/widget/AttrRadioButtonList", "RadioButtonList/widget/AssocRadioButtonList"], {});
